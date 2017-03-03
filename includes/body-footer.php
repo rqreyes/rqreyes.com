@@ -1,7 +1,7 @@
 				<div class='group-button'>
 					<a class='hollow button' href='docs/randy-reyes-resume-web-developer.pdf' target='_blank'><i class='fi-page-pdf'></i>&nbsp;&nbsp;R&eacute;sum&eacute;</a>
 					<a class='hollow button' href='https://www.linkedin.com/in/rqreyes' target='_blank'><i class='fi-social-linkedin'></i>&nbsp;&nbsp;LinkedIn</a>
-					<a class='hollow button' href='https://www.instagram.com/rqreyes/' target='_blank'><i class='fi-social-instagram'></i>&nbsp;&nbsp;Instagram</a>
+					<a class='hollow button' href='https://github.com/rqreyes' target='_blank'><i class='fi-social-github'></i>&nbsp;&nbsp;GitHub</a>
 				</div>
 			</div>
 		</header>
@@ -364,7 +364,7 @@
 				<div class='group-button'>
 					<a class='hollow button' href='docs/randy-reyes-resume-web-developer.pdf' target='_blank'><i class='fi-page-pdf'></i>&nbsp;&nbsp;R&eacute;sum&eacute;</a>
 					<a class='hollow button' href='https://www.linkedin.com/in/rqreyes' target='_blank'><i class='fi-social-linkedin'></i>&nbsp;&nbsp;LinkedIn</a>
-					<a class='hollow button' href='https://www.instagram.com/rqreyes/' target='_blank'><i class='fi-social-instagram'></i>&nbsp;&nbsp;Instagram</a>
+					<a class='hollow button' href='https://github.com/rqreyes' target='_blank'><i class='fi-social-github'></i>&nbsp;&nbsp;GitHub</a>
 				</div>
 				<p>&copy; <?php echo date('Y') ?> Randy Q Reyes</p>
 			</div>

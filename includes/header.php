@@ -1,7 +1,13 @@
+<!doctype html>
+<html class='no-js' lang='en'>
+	<head>
+		<?php if (isset($robots)) { echo $robots; } ?>
+
+		<title><?php echo $pageTitle ?></title>
 		<meta name='description' content='I’m a front-end web warrior by day, breakdancer by night, and this is my website portfolio. I live in San Diego, enjoy puzzles, and have a weakness for ramen.'>
 		<meta charset='utf-8'>
 		<meta http-equiv='x-ua-compatible' content='ie=edge'>
-		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'>
 		<link rel='icon' href='images/favicon.ico' type='image/x-icon'>
 		<link rel='stylesheet' href='https://necolas.github.io/normalize.css/5.0.0/normalize.css'>
@@ -41,4 +47,6 @@
 		<span class='anchor' id='home'></span>
 		<header>
 			<div class='row columns text-center'>
-				<img src='images/logo.png' alt='randy q reyes logo' width='180' height='209' data-aos='fade-up' data-aos-delay='1000'>
+				<img src='images/logo.png' alt='randy q reyes logo' width='180' height='209' data-aos='zoom-out' data-aos-delay='1000'>
+				<h1><?php echo $h1 ?></h1>
+				<p class='subtitle'><?php echo $subtitle ?></p>
