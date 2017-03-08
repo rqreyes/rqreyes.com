@@ -233,33 +233,6 @@
 					</div>
 				</div>
 			</div>
-			<div class='row'>
-				<div class='large-8 columns'>
-					<a href='http://uncomfortablyfreshcrew.com/' target='_blank'><img src='images/projects-uncomfortablyfreshcrew.png' alt='uncomfortablyfreshcrew.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
-					<a href='http://uncomfortablyfreshcrew.com/' target='_blank'><h3 class='text-center site-caption'>uncomfortablyfreshcrew.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a href='http://uncomfortablyfreshcrew.com/' target='_blank'><h3 class='text-center site-title'>uncomfortablyfreshcrew.com</h3></a>
-					<div class='border-grad'>
-						<p>This informative site delves into my breakdance crew's history, philosophies, and backgrounds of each member.</p>
-						<p class='underline'>Frameworks / Languages / Applications</p>
-						<div class='row'>
-							<div class='small-6 columns'>
-								<ul>
-									<li>WordPress</li>
-									<li>HTML</li>
-								</ul>
-							</div>
-							<div class='small-6 columns'>
-								<ul>
-									<li>CSS</li>
-									<li>Photoshop</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 
 		<span class='anchor' id='testimonials'></span>
