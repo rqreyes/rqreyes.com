@@ -180,10 +180,6 @@ section img {
 	border-radius: 5px;
 }
 
-.site-title {
-	display: none;
-}
-
 .border-grad {
 	position: relative;
 	padding: 10px 0 0 20px;
@@ -387,13 +383,6 @@ footer p {
 
 /* Xlarge and up (1200px) */
 @media screen and (min-width: 1200px) {
-	.site-caption {
-		display: none;
-	}
-
-	.site-title {
-		display: block;
-	}
 }
 
 /* XXlarge and up (1441px) */

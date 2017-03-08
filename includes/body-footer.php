@@ -11,13 +11,11 @@
 			<div class='row columns'>
 				<h2 class='text-center'>Projects</h2>
 			</div>
+
 			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://bboyreys.com/' target='_blank'><img src='images/projects-bboyreys.png' alt='bboyreys.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a href='http://bboyreys.com/' target='_blank'><h3 class='text-center site-caption'>bboyreys.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a href='http://bboyreys.com/' target='_blank'><h3 class='text-center site-title'>bboyreys.com</h3></a>
 					<div class='border-grad'>
 						<p>This is my online breakdance portfolio to showcase videos, photos, and fun facts.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
@@ -39,14 +37,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a data-open='design-bnsurance'><img src='images/projects-bnsurance.png' alt='bnsurance.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a data-open='design-bnsurance'><h3 class='text-center site-caption'>bnsurance.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a data-open='design-bnsurance'><h3 class='text-center site-title'>bnsurance.com</h3></a>
 					<div class='border-grad'>
 						<p>A client and I worked together to take key elements from his site and build a one-page modern design.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
@@ -65,12 +58,9 @@
 			</div>
 
 			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://www.massachusettscosmetic.com/' target='_blank'><img src='images/projects-massachusettscosmetic.png' alt='massachusettscosmetic.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a href='http://www.massachusettscosmetic.com/' target='_blank'><h3 class='text-center site-caption'>massachusettscosmetic.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a href='http://www.massachusettscosmetic.com/' target='_blank'><h3 class='text-center site-title'>massachusettscosmetic.com</h3></a>
 					<div class='border-grad'>
 						<p>At a previous employer, I upgraded and implemented mobile builds to broaden client audiences.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
@@ -97,14 +87,9 @@
 						</ul>
 					</div>
 				</div>
-			</div>
-			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://www.flossininclawson.com/' target='_blank'><img src='images/projects-flossininclawson.png' alt='flossininclawson.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a href='http://www.flossininclawson.com/' target='_blank'><h3 class='text-center site-caption'>flossininclawson.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a href='http://www.flossininclawson.com/' target='_blank'><h3 class='text-center site-title'>flossininclawson.com</h3></a>
 					<div class='border-grad'>
 						<p>At a previous employer, my colleague and I worked together to fabricate a new  template and boost our clientele.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
@@ -145,12 +130,10 @@
 					</div>
 				</div>
 			</div>
+
 			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://aquaplasticsurgery.com/' target='_blank'><img src='images/projects-aquaplasticsurgery.png' alt='aquaplasticsurgery.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
-					<a href='http://aquaplasticsurgery.com/' target='_blank'><h3 class='text-center site-caption'>aquaplasticsurgery.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
 					<a href='http://aquaplasticsurgery.com/' target='_blank'><h3 class='text-center site-title'>aquaplasticsurgery.com</h3></a>
 					<div class='border-grad'>
 						<p>At a previous employer, I launched and maintained custom builds to increase patient leads for our clients.</p>
@@ -177,13 +160,8 @@
 						</ul>
 					</div>
 				</div>
-			</div>
-			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://fivecyphers.com/' target='_blank'><img src='images/projects-fivecyphers.png' alt='fivecyphers.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
-					<a href='http://fivecyphers.com/' target='_blank'><h3 class='text-center site-caption'>fivecyphers.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
 					<a href='http://fivecyphers.com/' target='_blank'><h3 class='text-center site-title'>fivecyphers.com</h3></a>
 					<div class='border-grad'>
 						<p>My brother published a book, <em>The Book of Five Cyphers</em>, and this site was developed to introduce each element's philosophy and to connect the author with readers.</p>
@@ -206,13 +184,11 @@
 					</div>
 				</div>
 			</div>
+
 			<div class='row'>
-				<div class='large-8 columns'>
+				<div class='large-6 columns'>
 					<a href='http://energiaentertainment.com/' target='_blank'><img src='images/projects-energiaentertainment.png' alt='energiaentertainment.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a href='http://energiaentertainment.com/' target='_blank'><h3 class='text-center site-caption'>energiaentertainment.com</h3></a>
-				</div>
-				<div class='large-4 columns'>
-					<a href='http://energiaentertainment.com/' target='_blank'><h3 class='text-center site-title'>energiaentertainment.com</h3></a>
 					<div class='border-grad'>
 						<p>Energia Entertainment and I worked together to develop this platform for clients who wants to learn more about the company and the talents they offer.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
