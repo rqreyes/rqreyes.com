@@ -4,6 +4,7 @@
 					<a class='hollow button' href='https://github.com/rqreyes' target='_blank'><i class='fi-social-github'></i>&nbsp;&nbsp;GitHub</a>
 				</div>
 			</div>
+			<a class='scrolldown' href='#projects'>&#711;</a>
 		</header>
 
 		<span class='anchor' id='projects'></span>
@@ -319,7 +320,7 @@
 			</div>
 		</footer>
 
-		<a href='#' class='scrollup'>&uarr;</a>
+		<a href='#' class='scrollup'>&#710;</a>
 
 		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
