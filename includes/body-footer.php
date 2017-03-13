@@ -18,7 +18,7 @@
 					<a href='http://bboyreys.com/' target='_blank'><img src='images/projects-bboyreys.png' alt='bboyreys.com preview' data-aos='zoom-in' data-aos-anchor-placement='bottom-bottom'></a>
 					<a href='http://bboyreys.com/' target='_blank'><h3 class='text-center site-caption'>bboyreys.com</h3></a>
 					<div class='border-grad'>
-						<p>This is my online breakdance portfolio to showcase videos, photos, and fun facts.</p>
+						<p>This is my online b-boy (breakdance) portfolio to showcase videos, photos, and fun facts.</p>
 						<p class='underline'>Frameworks / Languages / Applications</p>
 						<div class='row'>
 							<div class='small-6 columns'>
@@ -263,7 +263,7 @@
 				<div class='large-6 large-pull-6 columns'>
 					<h2 class='text-center'>A Little About Me</h2>
 					<div class='border-grad'>
-						<p>I’m a front-end web warrior by day, breakdancer by night, and this is my website portfolio. I live in San Diego, enjoy puzzles, and have a weakness for ramen.</p>
+						<p>I’m a front-end web warrior by day, b-boy (breakdancer) by night, and this is my website portfolio. I live in San Diego, enjoy puzzles, and have a weakness for ramen.</p>
 						<p>My focus is on minimalism, simplicity, and intuition and I'm currently available for work. If you'd like to hire me for a project, please fill out the form below.</p>
 					</div>
 					<span class='anchor' id='contact'></span>
