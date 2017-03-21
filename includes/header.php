@@ -4,7 +4,7 @@
 		<?php if (isset($robots)) { echo $robots; } ?>
 
 		<title><?php echo $pageTitle ?></title>
-		<meta name='description' content='I’m a front-end web warrior by day, b-boy (breakdancer) by night, and this is my website portfolio. I live in San Diego, enjoy puzzles, and have a weakness for ramen.'>
+		<meta name='description' content='I’m a front-end web warrior by day, breakdancer by night, and this is my website portfolio. I live in San Diego, enjoy puzzles, and have a weakness for ramen.'>
 		<meta charset='utf-8'>
 		<meta http-equiv='x-ua-compatible' content='ie=edge'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
