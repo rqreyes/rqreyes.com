@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+section {
+  display: flex;
+  text-align: center;
+}
+a {
+  color: #001D49;
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 60.83333333px 1fr;
+  }
+  .container {
+    width: 730px;
+    margin: auto;
+  }
+  nav {
+    top: 0;
+  }
+  .hero {
+    grid-column: 1 / span 14;
+    grid-row: 1;
+  }
+  .projects {
+    grid-column: 1 / span 14;
+    grid-row: 2;
+  }
+  .connect {
+    grid-column: 1 / span 14;
+    grid-row: 3;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    grid-template-columns: 1fr 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 79.16666667px 1fr;
+  }
+  .container {
+    width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    grid-template-columns: 1fr 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 85.25px 1fr;
+  }
+  .container {
+    width: 1023px;
+  }
+}
+@media (min-width: 1366px) {
+  body {
+    grid-template-columns: 1fr 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 108.5px 1fr;
+  }
+  .container {
+    width: 1302px;
+  }
+}
+nav {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  nav {
+    height: 100px;
+    top: 0;
+  }
+  nav .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  nav a {
+    margin-right: 40px;
+  }
+  nav a:last-child {
+    margin-right: 0;
+  }
+}
+.hero {
+  background: purple;
+}
+@media (min-width: 1366px) {
+  .hero {
+    height: 800px;
+  }
+  .hero img {
+    width: 180px;
+    height: 209px;
+  }
+}
+.projects {
+  background: blue;
+}
+.connect {
+  background: teal;
+}

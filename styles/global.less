@@ -1,0 +1,88 @@
+﻿@max-width-portrait: 730px; //max-width at 768 screen width
+@max-width-landscape: 950px; //max-width at 992 screen width
+@max-width: 1023px; //site max width at 1200 screen width
+@max-width-wide: 1302px; //site max width if using wide layout
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    display: flex;
+    text-align: center;
+}
+
+a {
+    color: #001D49;
+    text-decoration: none;
+    transition: 0.2s;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 1fr;
+    }
+
+    .container {
+        width: @max-width-portrait;
+        margin: auto;
+    }
+
+    nav {
+        top: 0;
+    }
+
+    .hero {
+        grid-column: 1 / span 14;
+        grid-row: 1 / 1;
+    }
+
+    .projects {
+        grid-column: 1 / span 14;
+        grid-row: 2 / 1;
+    }
+
+    .connect {
+        grid-column: 1 / span 14;
+        grid-row: 3 / 1;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body {
+        grid-template-columns: 1fr @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 1fr;
+    }
+
+    .container {
+        width: @max-width-landscape;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    body {
+        grid-template-columns: 1fr @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 1fr;
+    }
+
+    .container {
+        width: @max-width;
+    }
+}
+
+// 1366px
+@media (min-width: 1366px) {
+    body {
+        grid-template-columns: 1fr @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 1fr;
+    }
+
+    .container {
+        width: @max-width-wide;
+    }
+}
