@@ -1,5 +1,56 @@
 ﻿.projects {
-    background: blue;
+    .project {
+        padding: 80px 0;
+
+        &:nth-child(1) {
+            color: #000;
+            background: #fdb812;
+
+            a {
+                background: @color-3;
+            }
+        }
+
+        &:nth-child(2) {
+            color: #fff;
+            background: #005ba4;
+
+            a {
+                background: @color-2;
+            }
+        }
+
+        &:nth-child(3) {
+            color: #000;
+            background: #0093c5;
+
+            a {
+                background: @color-2;
+            }
+        }
+
+        &:nth-child(4) {
+            color: #fff;
+            background: #00261c;
+        }
+
+        img {
+            display: block;
+            box-shadow: 0 0 100px -20px #000;
+            margin: 40px auto;
+        }
+
+        a {
+            display: table;
+            color: #fff;
+            padding: 10px 20px;
+            margin: auto;
+        }
+    }
+
+    .description {
+        max-width: 600px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)

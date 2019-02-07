@@ -1,88 +1,49 @@
-﻿@max-width-portrait: 730px; //max-width at 768 screen width
-@max-width-landscape: 950px; //max-width at 992 screen width
-@max-width: 1023px; //site max width at 1200 screen width
-@max-width-wide: 1302px; //site max width if using wide layout
+﻿@color-1: #578099;
+@color-2: #034166;
+@color-3: #001d49;
 
 body {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
 }
 
-section {
-    display: flex;
-    text-align: center;
+h1, h2, h3, h4, p {
+    font-weight: 400;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 a {
-    color: #001D49;
+    display: block;
+    font-weight: 700;
     text-decoration: none;
+    color: @color-3;
     transition: 0.2s;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    body {
-        display: grid;
-        grid-template-columns: 1fr @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 @max-width-portrait/12 1fr;
-    }
-
-    .container {
-        width: @max-width-portrait;
-        margin: auto;
-    }
-
     nav {
         top: 0;
-    }
-
-    .hero {
-        grid-column: 1 / span 14;
-        grid-row: 1 / 1;
-    }
-
-    .projects {
-        grid-column: 1 / span 14;
-        grid-row: 2 / 1;
-    }
-
-    .connect {
-        grid-column: 1 / span 14;
-        grid-row: 3 / 1;
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    body {
-        grid-template-columns: 1fr @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 @max-width-landscape/12 1fr;
-    }
-
-    .container {
-        width: @max-width-landscape;
-    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    body {
-        grid-template-columns: 1fr @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 @max-width/12 1fr;
-    }
-
-    .container {
-        width: @max-width;
-    }
 }
 
 // 1366px
 @media (min-width: 1366px) {
-    body {
-        grid-template-columns: 1fr @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 @max-width-wide/12 1fr;
-    }
-
-    .container {
-        width: @max-width-wide;
-    }
 }
