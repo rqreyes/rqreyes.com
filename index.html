@@ -12,8 +12,15 @@
 <body>
     <nav>
         <div class="container">
-            <a href="#projects">Projects</a>
-            <a href="#connect">Connect</a>
+            <img src="images/profile.jpg" alt="profile" />
+            <div class="nav-items">
+                <a href="#projects">
+                    <span>Projects</span>
+                </a>
+                <a href="#connect">
+                    <span>Connect</span>
+                </a>
+            </div>
         </div>
     </nav>
     <section class="hero">
@@ -25,41 +32,54 @@
     </section>
     <section class="projects" id="projects">
         <div class="project">
-            <h2>Tempe, AZ</h2>
-            <p>tempe.gov</p>
-            <img src="images/projects-tempe.png" />
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-            <a href="https://www.tempe.gov/" target="_blank">View Website</a>
+            <div class="container">
+                <h2>Tempe, AZ</h2>
+                <p>tempe.gov</p>
+                <img id="bg1" src="images/projects-tempe.png" />
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
+                <a href="https://www.tempe.gov/" target="_blank">View Website</a>
+            </div>
         </div>
         <div class="project">
-            <h2>Costa Mesa, CA</h2>
-            <p>costamesaca.gov</p>
-            <img src="images/projects-costa.png" />
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-            <a href="https://www.costamesaca.gov/" target="_blank">View Website</a>
+            <div class="container">
+                <h2>Costa Mesa, CA</h2>
+                <p>costamesaca.gov</p>
+                <img id="bg2" src="images/projects-costa.png" />
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
+                <a href="https://www.costamesaca.gov/" target="_blank">View Website</a>
+            </div>
         </div>
         <div class="project">
-            <h2>Aqua Plastic Surgery</h2>
-            <p>aquaplasticsurgery.com</p>
-            <img src="images/projects-aqua.png" />
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-            <a href="http://aquaplasticsurgery.com/" target="_blank">View Website</a>
+            <div class="container">
+                <h2>Aqua Plastic Surgery</h2>
+                <p>aquaplasticsurgery.com</p>
+                <img id="bg3" src="images/projects-aqua.png" />
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
+                <a href="http://aquaplasticsurgery.com/" target="_blank">View Website</a>
+            </div>
         </div>
         <div class="project">
-            <h2>Innate Motion Fitness</h2>
-            <p>innatemotionfitness.com</p>
-            <img src="images/projects-innate.png" />
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-            <a href="http://innatemotionfitness.com/" target="_blank">View Website</a>
+            <div class="container">
+                <h2>Innate Motion Fitness</h2>
+                <p>innatemotionfitness.com</p>
+                <img id="bg4" src="images/projects-innate.png" />
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
+                <a href="http://innatemotionfitness.com/" target="_blank">View Website</a>
+            </div>
         </div>
     </section>
     <section class="connect" id="connect">
         <div class="container">
-            <a href="#">resume</a>
-            <a href="#">linkedin</a>
-            <a href="#">github</a>
-            <p>&copy;2019 Randy Q Reyes</p>
+            <div class="connect-items">
+                <a href="#">Résumé</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+            <p class="copyright">&copy;2019 Randy Q Reyes</p>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
