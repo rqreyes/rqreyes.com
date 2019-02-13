@@ -25,10 +25,60 @@ p {
 }
 a {
   display: block;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
   font-weight: 700;
-  text-decoration: none;
   color: #001d49;
+  text-decoration: none;
+  margin: 0 20px;
+  position: relative;
   transition: 0.2s;
+}
+a::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 2px solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.2s;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+}
+a:last-child {
+  margin-right: 0;
+}
+a:hover::before {
+  transform: translate3d(0, 0, 0);
+}
+a:hover i[class*="fa"] {
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transform: translate3d(0, -100%, 0);
+}
+a:hover span {
+  transform: translate3d(0, -100%, 0);
+}
+a i[class*="fa"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  transition: transform 0.2s;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transform: translate3d(0, 0, 0);
+}
+a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: transform 0.2s;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 @media (min-width: 768px) {
   nav {
@@ -40,6 +90,7 @@ nav {
   background: #fff;
   position: fixed;
   bottom: 0;
+  z-index: 1;
 }
 nav .container {
   display: flex;
@@ -53,6 +104,18 @@ nav .container {
     height: 100px;
     top: 0;
   }
+  nav.headroom {
+    transition: all 0.4s ease-in-out;
+  }
+  nav.headroom.headroom--unpinned {
+    top: -100px;
+  }
+  nav.headroom.headroom--not-bottom {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  nav.headroom.headroom--not-bottom.headroom--top {
+    background: transparent;
+  }
   nav .container {
     display: flex;
     justify-content: space-between;
@@ -63,43 +126,6 @@ nav .container {
   }
   nav .nav-items {
     display: flex;
-  }
-  nav a {
-    width: 100px;
-    height: 40px;
-    overflow: hidden;
-    margin: 0 20px;
-    position: relative;
-  }
-  nav a::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    border-top: 2px solid;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 0.3s;
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
-  }
-  nav a:last-child {
-    margin-right: 0;
-  }
-  nav a:hover::before {
-    transform: translate3d(0, 0, 0);
-  }
-  nav a:hover span {
-    transform: translate3d(0, -100%, 0);
-  }
-  nav a span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transition: transform 0.3s;
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
   }
 }
 .hero {
@@ -162,7 +188,6 @@ nav .container {
 }
 .projects .project a {
   display: table;
-  padding: 10px 20px;
   border-radius: 5px;
   margin: auto;
 }

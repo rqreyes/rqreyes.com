@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // background color-change
     var bg1 = "#fdb812",
         bg2 = "#005ba4",
         bg3 = "#0093c5",
@@ -20,4 +21,9 @@ $(document).ready(function () {
             $('body').css('background', bg4)
         };
     });
+
+    // headroom
+    var myElement = document.querySelector("nav");
+    var headroom = new Headroom(myElement);
+    headroom.init();
 });

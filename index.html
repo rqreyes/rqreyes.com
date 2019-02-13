@@ -6,19 +6,21 @@
     <title>Randy Reyes | Front-end Web Warrior</title>
     <link rel="icon" type="image/png" href="images/favicon.ico">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700">
+    <link rel="stylesheet" href="styles/all.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav class="headroom">
         <div class="container">
             <img src="images/profile.jpg" alt="profile" />
             <div class="nav-items">
                 <a href="#projects">
                     <span>Projects</span>
+                    <i class="far fa-tasks"></i>
                 </a>
                 <a href="#connect">
                     <span>Connect</span>
+                    <i class="far fa-share-alt"></i>
                 </a>
             </div>
         </div>
@@ -37,7 +39,10 @@
                 <p>tempe.gov</p>
                 <img id="bg1" src="images/projects-tempe.png" />
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-                <a href="https://www.tempe.gov/" target="_blank">View Website</a>
+                <a href="https://www.tempe.gov/" target="_blank">
+                    <span>Website</span>
+                    <i class="far fa-browser"></i>
+                </a>
             </div>
         </div>
         <div class="project">
@@ -46,7 +51,10 @@
                 <p>costamesaca.gov</p>
                 <img id="bg2" src="images/projects-costa.png" />
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-                <a href="https://www.costamesaca.gov/" target="_blank">View Website</a>
+                <a href="https://www.costamesaca.gov/" target="_blank">
+                    <span>Website</span>
+                    <i class="far fa-browser"></i>
+                </a>
             </div>
         </div>
         <div class="project">
@@ -55,7 +63,10 @@
                 <p>aquaplasticsurgery.com</p>
                 <img id="bg3" src="images/projects-aqua.png" />
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-                <a href="http://aquaplasticsurgery.com/" target="_blank">View Website</a>
+                <a href="http://aquaplasticsurgery.com/" target="_blank">
+                    <span>Website</span>
+                    <i class="far fa-browser"></i>
+                </a>
             </div>
         </div>
         <div class="project">
@@ -64,22 +75,35 @@
                 <p>innatemotionfitness.com</p>
                 <img id="bg4" src="images/projects-innate.png" />
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper imperdiet pellentesque. Maecenas nec purus maximus, pharetra tortor in, sagittis odio.</p>
-                <a href="http://innatemotionfitness.com/" target="_blank">View Website</a>
+                <a href="http://innatemotionfitness.com/" target="_blank">
+                    <span>Website</span>
+                    <i class="far fa-browser"></i>
+                </a>
             </div>
         </div>
     </section>
     <section class="connect" id="connect">
         <div class="container">
             <div class="connect-items">
-                <a href="#">Résumé</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
+                <a href="#" target="_blank">
+                    <span>Résumé</span>
+                    <i class="far fa-file-alt"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <span>LinkedIn</span>
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <span>GitHub</span>
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
             <p class="copyright">&copy;2019 Randy Q Reyes</p>
         </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="scripts/headroom.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
