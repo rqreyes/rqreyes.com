@@ -89,46 +89,38 @@ a span {
 }
 nav {
   width: 100%;
+  height: 100px;
   background: #fff;
   position: fixed;
-  bottom: 0;
+  top: 0;
   z-index: 2;
+}
+nav.headroom {
+  transition: all 0.4s ease-in-out;
+}
+nav.headroom.headroom--unpinned {
+  top: -100px;
+}
+nav.headroom.headroom--not-bottom {
+  background: rgba(255, 255, 255, 0.9);
+  /*&.headroom--top {
+                    background: transparent;
+                }*/
 }
 nav .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 1000px;
+  height: 100%;
+  padding: 0 10px;
   margin: auto;
 }
-@media (min-width: 768px) {
-  nav {
-    height: 100px;
-    top: 0;
-  }
-  nav.headroom {
-    transition: all 0.4s ease-in-out;
-  }
-  nav.headroom.headroom--unpinned {
-    top: -100px;
-  }
-  nav.headroom.headroom--not-bottom {
-    background: rgba(255, 255, 255, 0.9);
-    /*&.headroom--top {
-                    background: transparent;
-                }*/
-  }
-  nav .container {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-  }
-  nav img {
-    border-radius: 50%;
-  }
-  nav .nav-items {
-    display: flex;
-  }
+nav img {
+  border-radius: 50%;
+}
+nav .nav-items {
+  display: flex;
 }
 .hero {
   display: flex;
@@ -200,6 +192,7 @@ nav .container {
   display: block;
   width: 100%;
   max-width: 672px;
+  border-radius: 6px;
   box-shadow: 0 0 100px -20px #000;
   margin: 40px auto;
 }
