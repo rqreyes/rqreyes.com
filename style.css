@@ -21,6 +21,8 @@ h2 {
   font-size: 40px;
 }
 p {
+  font-size: 20px;
+  line-height: 1.6;
   margin: 0 auto 20px;
 }
 a {
@@ -90,7 +92,7 @@ nav {
   background: #fff;
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 nav .container {
   display: flex;
@@ -112,9 +114,9 @@ nav .container {
   }
   nav.headroom.headroom--not-bottom {
     background: rgba(255, 255, 255, 0.9);
-  }
-  nav.headroom.headroom--not-bottom.headroom--top {
-    background: transparent;
+    /*&.headroom--top {
+                    background: transparent;
+                }*/
   }
   nav .container {
     display: flex;
@@ -133,7 +135,22 @@ nav .container {
   justify-content: center;
   align-items: center;
   height: 800px;
-  background: purple;
+  background: url(images/hero.jpg) no-repeat right 18% bottom;
+  background-attachment: fixed;
+  position: relative;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
 }
 .hero img {
   width: 180px;
@@ -195,7 +212,7 @@ nav .container {
   max-width: 600px;
 }
 .connect {
-  background: teal;
+  background: #fff;
 }
 .connect .container {
   padding: 40px 0;
@@ -209,5 +226,6 @@ nav .container {
   margin: 0 20px;
 }
 .connect .copyright {
+  color: #000;
   margin: 0;
 }
