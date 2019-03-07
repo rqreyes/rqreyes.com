@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    background: url(images/hero.jpg) no-repeat right 18% bottom;
-    background-attachment: fixed;
+    height: 600px;
+    background: url(images/hero.jpg) no-repeat;
+    background-position: right 15% center;
     position: relative;
 
     &::before {
@@ -34,6 +34,11 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .hero {
+        height: 800px;
+        background-position: right 18% bottom;
+        background-attachment: fixed;
+    }
 }
 
 // Large devices (desktops, 992px and up)

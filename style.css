@@ -15,7 +15,7 @@ p {
   margin: 0 auto 10px;
 }
 h1 {
-  font-size: 60px;
+  font-size: 54px;
 }
 h2 {
   font-size: 40px;
@@ -126,9 +126,9 @@ nav .nav-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
-  background: url(images/hero.jpg) no-repeat right 18% bottom;
-  background-attachment: fixed;
+  height: 600px;
+  background: url(images/hero.jpg) no-repeat;
+  background-position: right 15% center;
   position: relative;
 }
 .hero::before {
@@ -150,6 +150,13 @@ nav .nav-items {
 }
 .hero .subtitle {
   font-size: 30px;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 800px;
+    background-position: right 18% bottom;
+    background-attachment: fixed;
+  }
 }
 .projects .project {
   display: flex;
