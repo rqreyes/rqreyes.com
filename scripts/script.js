@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // background color-change
-    var bg1 = "#fdb812",
+    var bg1 = "#84b9d0",
         bg2 = "#005ba4",
         bg3 = "#0093c5",
         bg4 = "#00261c";

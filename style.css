@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #fff;
-  background: #fdb812;
+  background: #84b9d0;
   transition: background 0.2s;
   will-change: background;
 }
@@ -147,6 +147,7 @@ nav .nav-items {
 .hero img {
   width: 180px;
   height: 209px;
+  margin-bottom: 20px;
 }
 .hero .subtitle {
   font-size: 30px;
