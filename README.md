@@ -1,3 +1,3 @@
 # rqreyes.com
 
-This is my online developer portfolio to showcase websites, designs, and fun facts.
+My online developer portfolio to showcase websites I've designed and/or built.
