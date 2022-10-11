@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+nav {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+section {
+  margin: 40px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #369;
+  color: #FFF;
+  font-size: 1.4em;
+  text-decoration: none;
+  opacity: 0.5;
+}

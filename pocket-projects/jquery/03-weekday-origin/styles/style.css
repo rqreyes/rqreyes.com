@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  font-size: 2rem;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.todayname {
+  font-weight: bold;
+  background-color: #6C3082;
+  color: #FFF;
+  height: 100px;
+}
+
+.info {
+  background-color: #6C3082;
+}
+
+.info p {
+  display: none;
+}
+
+#today {
+  display: block;
+  margin: auto;
+  padding: 40px;
+  width: 1000px;
+  color: #FFF;
+  text-align: left;
+  font-size: 1.4rem;
+}

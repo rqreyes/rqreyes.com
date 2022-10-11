@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+  color: #FFF;
+}
+
+section {
+  margin: auto;
+  width: 1000px;
+  background-color: #999;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}

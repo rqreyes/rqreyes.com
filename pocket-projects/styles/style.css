@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+section {
+  margin: 40px auto;
+  width: 310px;
+}
+
+.container-projects {
+  padding: 20px;
+  box-shadow: 0 0 10px #000;
+}

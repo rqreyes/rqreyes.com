@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  height: 3000px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+}
+
+section {
+  margin-left: 40px;
+  font-size: 3rem;
+  font-family: monospace;
+}
+
+.intro {
+  color: #999;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+  top: 1583px;
+}

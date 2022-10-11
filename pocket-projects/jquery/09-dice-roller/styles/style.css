@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  position: relative;
+  margin: 40px;
+}
+
+img {
+	display: inline-block;
+  margin: 0 10px;
+}
+
+.container-dice, .container-hand {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.dice {
+	margin-top: 140px;
+  cursor: pointer;
+}
+
+.hand {
+	display: none;
+}

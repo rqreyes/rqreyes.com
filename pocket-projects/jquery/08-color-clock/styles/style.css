@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 2px 4px #000;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.time, .color {
+  margin: 20px;
+  font-size: 6rem;
+}
