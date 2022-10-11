@@ -56,14 +56,14 @@ a:last-child {
 a:hover::before {
   transform: translate3d(0, 0, 0);
 }
-a:hover i[class*="fa"] {
+a:hover i[class*='fa'] {
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
   transform: translate3d(0, -100%, 0);
 }
 a:hover span {
   transform: translate3d(0, -100%, 0);
 }
-a i[class*="fa"] {
+a i[class*='fa'] {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +155,7 @@ nav .nav-items {
 @media (min-width: 768px) {
   .hero {
     height: 800px;
-    background-position: right 18% bottom;
+    background-position: right 18% center;
     background-attachment: fixed;
   }
 }
