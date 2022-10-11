@@ -6,6 +6,15 @@
     padding: 80px 10px;
 
     &:nth-child(1) {
+      color: #fff;
+
+      a {
+        color: #fff;
+        background: #000;
+      }
+    }
+
+    &:nth-child(2) {
       color: #000;
 
       a {
@@ -14,7 +23,7 @@
       }
     }
 
-    &:nth-child(2) {
+    &:nth-child(3) {
       color: #fff;
 
       a {
@@ -23,21 +32,12 @@
       }
     }
 
-    &:nth-child(3) {
+    &:nth-child(4) {
       color: #000;
 
       a {
         color: #000;
         background: #abc5f8;
-      }
-    }
-
-    &:nth-child(4) {
-      color: #fff;
-
-      a {
-        color: #fff;
-        background: #167f39;
       }
     }
 

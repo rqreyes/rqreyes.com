@@ -160,7 +160,7 @@ nav .nav-items {
 @media (min-width: 768px) {
   .hero {
     height: 800px;
-    background-position: right 18% bottom;
+    background-position: right 18% center;
     background-attachment: fixed;
   }
 }
@@ -171,32 +171,32 @@ nav .nav-items {
   padding: 80px 10px;
 }
 .projects .project:nth-child(1) {
-  color: #000;
+  color: #fff;
 }
 .projects .project:nth-child(1) a {
-  color: #000;
-  background: #a8d15e;
+  color: #fff;
+  background: #000;
 }
 .projects .project:nth-child(2) {
-  color: #fff;
+  color: #000;
 }
 .projects .project:nth-child(2) a {
   color: #000;
-  background: #f8b44d;
+  background: #a8d15e;
 }
 .projects .project:nth-child(3) {
-  color: #000;
+  color: #fff;
 }
 .projects .project:nth-child(3) a {
   color: #000;
-  background: #abc5f8;
+  background: #f8b44d;
 }
 .projects .project:nth-child(4) {
-  color: #fff;
+  color: #000;
 }
 .projects .project:nth-child(4) a {
-  color: #fff;
-  background: #167f39;
+  color: #000;
+  background: #abc5f8;
 }
 .projects .project .container {
   height: auto;

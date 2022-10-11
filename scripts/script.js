@@ -1,9 +1,9 @@
 $(document).ready(function () {
   // background color-change
-  var bg1 = "#84b9d0",
-    bg2 = "#005ba4",
-    bg3 = "#0093c5",
-    bg4 = "#00261c";
+  var bg1 = "#6D47D3",
+    bg2 = "#84b9d0",
+    bg3 = "#005ba4",
+    bg4 = "#0093c5";
 
   $(window).on("scroll touchmove", function () {
     var scrollBottom = $(window).scrollTop() + $(window).height();
@@ -36,12 +36,15 @@ $(document).ready(function () {
     .click(function (event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") &&
+        location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
         var target = $(this.hash);
-        target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+        target = target.length
+          ? target
+          : $("[name=" + this.hash.slice(1) + "]");
         // Does a scroll target exist?
         if (target.length) {
           // Only prevent default if animation is actually gonna happen
@@ -68,4 +71,7 @@ $(document).ready(function () {
         }
       }
     });
+
+  // display copyright year
+  document.getElementById("year").innerHTML = new Date().getFullYear();
 });
