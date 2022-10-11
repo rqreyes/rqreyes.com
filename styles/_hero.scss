@@ -1,0 +1,55 @@
+﻿.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background: url(images/hero.jpg) no-repeat;
+  background-position: right 15% center;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  img {
+    width: 180px;
+    height: 209px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .hero {
+    height: 800px;
+    background-position: right 18% bottom;
+    background-attachment: fixed;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// 1366px
+@media (min-width: 1366px) {
+}
