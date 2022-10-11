@@ -129,7 +129,7 @@ nav .nav-items {
 .hero {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 600px;
   background: url(images/hero.jpg) no-repeat;
   background-position: right 15% center;
@@ -159,6 +159,7 @@ nav .nav-items {
 
 @media (min-width: 768px) {
   .hero {
+    align-items: center;
     height: 800px;
     background-position: right 18% center;
     background-attachment: fixed;
