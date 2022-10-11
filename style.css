@@ -1,8 +1,8 @@
 body {
+  background: #84b9d0;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  color: #fff;
-  background: #84b9d0;
   transition: background 0.2s;
   will-change: background;
 }
@@ -31,29 +31,29 @@ p {
 }
 
 a {
-  display: block;
-  width: 100px;
-  height: 40px;
-  overflow: hidden;
-  font-weight: 700;
   color: #001d49;
-  text-decoration: none;
+  display: block;
+  font-weight: 700;
+  height: 40px;
   margin: 0 20px;
+  overflow: hidden;
   position: relative;
+  text-decoration: none;
   transition: 0.2s;
+  width: 100px;
 }
 a::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
   border-top: 2px solid;
+  box-sizing: border-box;
+  content: "";
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  transition: transform 0.2s;
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
   transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition: transform 0.2s;
+  width: 100%;
 }
 a:last-child {
   margin-right: 0;
@@ -62,30 +62,30 @@ a:hover::before {
   transform: translate3d(0, 0, 0);
 }
 a:hover i[class*=fa] {
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
   transform: translate3d(0, -100%, 0);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 a:hover span {
   transform: translate3d(0, -100%, 0);
 }
 a i[class*=fa] {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  display: flex;
   font-size: 20px;
-  transition: transform 0.2s;
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  height: 100%;
+  justify-content: center;
   transform: translate3d(0, 0, 0);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition: transform 0.2s;
+  width: 100%;
 }
 a span {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   height: 100%;
-  transition: transform 0.2s;
+  justify-content: center;
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition: transform 0.2s;
 }
 
 @media (min-width: 768px) {
@@ -94,11 +94,11 @@ a span {
   }
 }
 nav {
-  width: 100%;
-  height: 100px;
   background: #fff;
+  height: 100px;
   position: fixed;
   top: 0;
+  width: 100%;
   z-index: 2;
 }
 nav.headroom {
@@ -111,13 +111,13 @@ nav.headroom.headroom--not-bottom {
   background: rgba(255, 255, 255, 0.9);
 }
 nav .container {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  display: flex;
   height: 100%;
-  padding: 0 10px;
+  justify-content: space-between;
   margin: auto;
+  max-width: 1000px;
+  padding: 0 10px;
 }
 nav img {
   border-radius: 50%;
@@ -127,31 +127,31 @@ nav .nav-items {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
   align-items: flex-end;
-  height: 600px;
-  background: url(images/hero.jpg) no-repeat;
   background-position: right 15% center;
+  background: url(images/hero.jpg) no-repeat;
+  display: flex;
+  height: 600px;
+  justify-content: center;
   position: relative;
 }
 .hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .hero .container {
   position: relative;
   z-index: 1;
 }
 .hero img {
-  width: 180px;
   height: 209px;
   margin-bottom: 20px;
+  width: 180px;
 }
 .hero .subtitle {
   font-size: 30px;
@@ -160,59 +160,59 @@ nav .nav-items {
 @media (min-width: 768px) {
   .hero {
     align-items: center;
-    height: 800px;
-    background-position: right 18% center;
     background-attachment: fixed;
+    background-position: right 18% center;
+    height: 800px;
   }
 }
 .projects .project {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 80px 10px;
 }
 .projects .project:nth-child(1) {
   color: #fff;
 }
 .projects .project:nth-child(1) a {
-  color: #fff;
   background: #000;
+  color: #fff;
 }
 .projects .project:nth-child(2) {
   color: #000;
 }
 .projects .project:nth-child(2) a {
-  color: #000;
   background: #a8d15e;
+  color: #000;
 }
 .projects .project:nth-child(3) {
   color: #fff;
 }
 .projects .project:nth-child(3) a {
-  color: #000;
   background: #f8b44d;
+  color: #000;
 }
 .projects .project:nth-child(4) {
   color: #000;
 }
 .projects .project:nth-child(4) a {
-  color: #000;
   background: #abc5f8;
+  color: #000;
 }
 .projects .project .container {
   height: auto;
 }
 .projects .project img {
-  display: block;
-  width: 100%;
-  max-width: 672px;
   border-radius: 6px;
   box-shadow: 0 0 100px -20px #000;
+  display: block;
   margin: 40px auto;
+  max-width: 672px;
+  width: 100%;
 }
 .projects .project a {
-  display: table;
   border-radius: 5px;
+  display: table;
   margin: auto;
 }
 .projects .description {
